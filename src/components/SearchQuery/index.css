@@ -1,0 +1,31 @@
+.loader-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.no-results-image {
+  height: 200px;
+  width: 200px;
+}
+
+.empty-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: #ffffff;
+  height: 100vh;
+}
+
+.movie-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: black;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  height: 100vh;
+  overflow: auto;
+}

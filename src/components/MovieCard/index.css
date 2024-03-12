@@ -1,0 +1,46 @@
+.movie-items-list-container {
+  list-style-type: none;
+}
+
+.movie-items-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 15px;
+  max-width: 800px;
+}
+.movie-image {
+  height: 250px;
+  width: 200px;
+  align-self: center;
+}
+
+.movie-title {
+  width: 100px;
+  font-size: 25px;
+  font-family: 'Sans Serif';
+  font-weight: bold;
+  color: #f13809;
+}
+
+.movie-popularity {
+  font-size: 20px;
+  font-family: 'Sans Serif';
+  color: #ffffff;
+}
+
+.movie-vote-avg {
+  font-size: 20px;
+  font-family: 'Sans Serif';
+  color: #ffffff;
+}
+
+.view-details-btn {
+  height: 30px;
+  width: 120px;
+  background-color: blue;
+  color: #ffffff;
+  border: 2px solid blue;
+  border-radius: 5px;
+}

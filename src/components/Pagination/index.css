@@ -1,0 +1,23 @@
+.page-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+.control-btn {
+  background-color: #830ef1;
+  height: 20px;
+  width: 50px;
+  border: 0px;
+  color: #ffffff;
+}
+
+.page-no {
+  font-size: 15px;
+  font-family: 'Sans Serif';
+  font-weight: bold;
+  color: #ffffff;
+  padding: 20px;
+}
